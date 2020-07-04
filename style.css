@@ -88,7 +88,8 @@ a {
   font-size: 3rem;
 }
 
-iframe {
+iframe,
+.giphy-embed {
   pointer-events: none;
 }
 
