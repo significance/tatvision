@@ -98,6 +98,10 @@ iframe {
   width: 70em;
 }
 
+.gallery-item {
+  pointer-events: auto;
+}
+
 .video-container {
 }
 .video-large {
