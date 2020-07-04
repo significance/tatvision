@@ -61,3 +61,7 @@ a {
 iframe {
   pointer-events: none;
 }
+
+.main-vid {
+  pointer-events: auto;
+}
