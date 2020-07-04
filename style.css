@@ -99,9 +99,6 @@ iframe {
 }
 
 .video-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
 }
 .video-large {
   grid-column: 1;
@@ -109,4 +106,22 @@ iframe {
 }
 .video-container iframe {
   /*change according to your need*/
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.span-row-2 {
+  grid-row: span 2 / auto;
+}
+
+.span-row-3 {
+  grid-row: span 3 / auto;
+}
+
+.gallery-item {
+  height: 100%;
+  width: 100%;
 }
