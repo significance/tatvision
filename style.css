@@ -105,6 +105,7 @@ iframe {
 .main-vid {
   pointer-events: auto;
 	margin-left: 30px;
+	width: 70em;
 }
 
 .video-container {
