@@ -27,50 +27,52 @@ body {
 }
 
 .email {
-	height:35px;
-	font-size: 2em;
-	width:350px;
-	margin-bottom: 15px;
-	background-color: #ff6ec7;
-	color:black;
+  height: 35px;
+  font-size: 2em;
+  width: 350px;
+  margin-bottom: 15px;
+  background-color: #ff6ec7;
+  color: black;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 0.8;/* Firefox */
+  opacity: 0.8; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: white;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder {
+  /* Microsoft Edge */
   color: white;
 }
 
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #54a3f7;
-	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	background-color:#007dc1;
-	border-radius:5px;
-	border:1px solid #124d77;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:2em;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #154682;
-	height: 35px;
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color: #007dc1;
+  border-radius: 5px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 2em;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  height: 35px;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-	background-color:#0061a7;
+  background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color: #0061a7;
 }
 .myButton:active {
-	
-	top:1px;
+  top: 1px;
 }
 
 table {
@@ -87,11 +89,10 @@ table {
 }
 
 .title-centre {
-	width: 500px;
-	height: 450px;
-	margin-left: 40px;
-	margin-top: 20px;
-	
+  width: 500px;
+  height: 450px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .center,
@@ -110,13 +111,10 @@ table {
   display: inline;
 }
 
-
-
 .sign-up {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-	
 }
 
 label,
@@ -127,8 +125,7 @@ p {
 }
 
 label {
-	
-	font-size: 3rem;
+  font-size: 3rem;
 }
 
 p {
@@ -195,18 +192,19 @@ iframe,
 }
 
 .more-tat {
-	
-	display: inline-block;
-	padding:20px;
-	
+  display: inline-block;
+  padding: 20px;
 }
 
 .more {
-	text-align: center;
-	width: 100%;
-	padding-right: 50px;
+  text-align: center;
+  width: 100%;
+  padding-right: 50px;
 }
 
-#prevbutton , #nextbutton {
-	font-size: 5rem;
+#prevbutton,
+#nextbutton {
+  font-size: 5rem;
 }
+
+/* need to add cursor property to these buttons*/
