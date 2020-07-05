@@ -26,6 +26,28 @@ body {
   overflow: hidden;
 }
 
+.email {
+	height:35px;
+	font-size: 2em;
+	width:350px;
+	margin-bottom: 15px;
+	background-color: #ff6ec7;
+	color:white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
 table {
   width: 800px;
 }
@@ -37,6 +59,14 @@ table {
 }
 .header-image img {
   width: 637px;
+}
+
+.title-centre {
+	width: 500px;
+	height: 450px;
+	margin-left: 40px;
+	margin-top: 20px;
+	
 }
 
 .center,
@@ -55,17 +85,25 @@ table {
   display: inline;
 }
 
+
+
 .sign-up {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+	
 }
 
 label,
 h2,
 p {
   font-family: "Bangers", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+label {
+	
+	font-size: 3rem;
 }
 
 p {
@@ -129,4 +167,21 @@ iframe,
 .gallery-item {
   height: 100%;
   width: 100%;
+}
+
+.more-tat {
+	
+	display: inline-block;
+	padding:20px;
+	
+}
+
+.more {
+	text-align: center;
+	width: 100%;
+	padding-right: 50px;
+}
+
+#prevbutton , #nextbutton {
+	font-size: 5rem;
 }

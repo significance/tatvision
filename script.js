@@ -1,252 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-		<meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
-  
-		
-    <link rel="stylesheet" type="text/css" href="style.css" >
-  </head>
-  <body>
-    <!--
-    <div class="titlebox">
-      <img
-        class="title"
-        src="tat-vision.png"
-        height="165"
-        width="272"
-        alt="tatvision"
-      />
-    </div>-->
-    <div class="center">
-  <!--    <div class="header-image">
-        <img class="title" src="tat-vision.png" alt="tatvision" />
-      </div> -->
-      <table >
-        <tbody>
-          <tr>
-            <td colspan="5" halign="right" vertical-align="top"></td>
-          </tr>
 
-          <tr>
-            <td colspan="2" halign="right" vertical-align="middle">
-              <br />
-
-              <br />
-
-              <br />
-
-              <a
-             href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-             target="_blank"
-                ><iframe src="https://giphy.com/embed/4EEIVX0wHTVW16wd9q"  width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br></a>
-            </td>
-
-            
-
-            <td text-align="center" vertical-align="middle">
-              
-             
-             <a
-             href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-             target="_blank"
-                ><iframe src="https://giphy.com/embed/l3mZ1Cyxvy6fE0ue4" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"></a><br><p>Watch me</p></a>
-            </td>
-
-            <td text-align="center" vertical-align="top">
-              
-            </td>
-
-            
-
-            <td text-align="center" vertical-align="bottom">
-              <br />
-
-              <br />
-
-              <a
-             href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-             target="_blank"
-                ><iframe src="https://giphy.com/embed/VAsnGLEVHZEOs" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br></a>
-            </td>
-          </tr>
+let pageIndex = 0;
 
 
-          
+let videoGallery = [ 
 
-          <tr>
-            <td text-align="center" vertical-align="top">
-              <br />
-
-              <br />
-              <!-- future link-->
-              <a><iframe src="https://giphy.com/embed/3og0ITzsAIXlXlsrUQ" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br><p>&nbsp&nbsp&nbspBuy Tat</p></a>
-            </td>
-
-            
-
-            <td
-              colspan="3"
-              rowspan="2"
-              text-align="right"
-              vertical-align="middle"
-            >
-            <img class="title-centre" src="newTat.png" alt="tatvision" />
-      <!--  Central title/vid -->
-        <!--    <div class="video-preview">
-            <iframe class="main-vid" 
-                width="700"
-                height="400"
-                src="https://www.youtube.com/embed/hTdbgse6vmY?start=10"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen=""
-              ></iframe> -->
-							
-            </td>
-
-            <td text-align="right" vertical-align="bottom">
-              <iframe name="ifrsame1" src="https://giphy.com/embed/WnHQCgWxLEXQjBz7W5" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen  ></iframe><a href="https://www.instagram.com/tat_vision/" target="blank" ><br><p>&nbsp&nbsp&nbspGallery</a>
-                 
-            </td>
-          </tr>
-
-          
-
-          <tr>
-            <td text-align="center" vertical-align="bottom">
-              <a
-              href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-              target="_blank"
-                 ><iframe src="https://giphy.com/embed/i3ijZEdGVlVYWyTdUG" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br></a>
-            </td>
-
-            <td rowspan="2" text-align="center" vertical-align="top">
-              
-
-              
-
-              <a
-              href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-              target="_blank"
-                 ><iframe src="https://giphy.com/embed/UQaWU21FA822M45mR8" width="100" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br></a>
-            </td>
-          </tr>
-
-          
-
-          <tr>
-            <td></td>
-
-            <td text-align="center" vertical-align="top">
-              <a
-              href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-              target="_blank"
-                 ><iframe src="https://giphy.com/embed/U6dAooORE5NVCQppYW" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br></a>
-            </td>
-
-            
-
-            <td text-align="center" vertical-align="bottom">
-              <br />
-
-              <br />
-
-              <br />
-
-              <br />
-
-              <a
-               href="mailto:tat.vision@aol.com" target="_blank"
-                 ><iframe src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="mailto:tat.vision@aol.com" target="_blank"></a><br><p>&nbsp&nbsp&nbspContact</p></a></a>
-            </td>
-
-
-            
-
-            <td text-align="center" vertical-align="middle">
-              <a
-             href="https://www.youtube.com/watch?v=hTdbgse6vmY&amp;list=PL3FKAowU7eMLmS-sk-gNfGUkE1VLAwt6e"
-             target="_blank"
-                ><iframe src="https://giphy.com/embed/RBnpKWvtDeFSE" width="80" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a></a><br></a>
-            </td>
-          </tr>
-
-          
-        </tbody>
-      </table>
-    
-    <div class="sign-up">
-      <div id="mc_embed_signup">
-        <form
-          action="https://tatvision.us4.list-manage.com/subscribe/post?u=ef1b43ff75895b93acafb40f1&amp;id=c1663573df"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          class="validate"
-          target="_blank"
-          novalidate=""
-        >
-          <div id="mc_embed_signup_scroll">
-            <div class="">
-              <label for="mce-EMAIL"
-                >
-                <span class="asterisk"></span>
-              </label>
-              <input
-                type="email"
-                value=""
-                name="EMAIL"
-                class="required email"
-                id="mce-EMAIL"
-								placeholder="Enter your Email Address here"
-              /><input
-                type="submit"
-                value="Join TatVision Fanclub"
-                name="subscribe"
-                id="mc-embedded-subscribe"
-                class="button"
-              />
-            </div>
-            <div id="mce-responses" class="clear">
-              <div
-                class="response"
-                id="mce-error-response"
-                style="display: none;"
-              ></div>
-              <div
-                class="response"
-                id="mce-success-response"
-                style="display: none;"
-              ></div>
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div
-              style="position: absolute; left: -5000px;"
-              aria-hidden="true"
-            >
-              <input
-                type="text"
-                name="b_ef1b43ff75895b93acafb40f1_c1663573df"
-                tabindex="-1"
-                value=""
-              />
-            </div>
-          </div>
-        </form>
-      </div>
-      <marquee direction="right" height="70px">
-        <h2>Join My Fan Club For Free Tat</h2>
-      </marquee>
-      <!-- Begin Mailchimp Signup Form -->
-      <!--End mc_embed_signup-->
-    </div>
-		
-    </div>
-		<section class="video-container">
-      <div class="grid">
+  {videos: `<div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/hTdbgse6vmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/-xOZBDVtnQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/bda3CRfBco0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -260,12 +18,10 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/jSAyuoAtBcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/b6cejUHWZqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/UstpqZe24Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>
+        <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>}`
+	},
 				
-				
-				
-      <!--  
-      </div>
+	{ videos: `</div>
       <div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/nRBB65H6Tr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/P-ZE_xHCtIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -282,7 +38,9 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/QDQTqrC9wBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-      </div>
+				</div>`
+	},
+	{videos: `</div>
       <div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/zUv2KO3X598" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/eBgSgnUm7e4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -299,8 +57,10 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/f2AkoOzEG6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-      </div>
-      <div class="grid">
+				</div>`
+	
+	},
+	{videos:`<div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/mK7qUClyq-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/u7_8gYqYeYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/aWur1Z0Wpc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -316,8 +76,10 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/xMlgTjoTuOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>
         
-      </div>
-      <div class="grid">
+				</div>`
+	
+	},
+	{videos:`<div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/MO-dU4JaVyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/JzXia1pXwPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/jGlvROBYdlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -333,8 +95,10 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/gVdNHF-1gNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-      </div>
-      <div class="grid">
+				</div>`
+	
+	},
+	{videos:`<div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/oRNBXtriQ_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/xmqSJ5someY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/4KK2U8jTF6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -350,8 +114,10 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/jZPMOZH5ibc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-      </div>
-      <div class="grid">
+				</div>`
+	
+	},
+	{videos:`<div class="grid">
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/Axj8M3gZCVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/jI_UJyPqx38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/TusU1PbJXLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -367,18 +133,53 @@
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/4dNBsid6MX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>
         
-      </div>
-      
-      -->
-      
-  
-</section>
-<div class="more"><h2 id="prevbutton" class="more-tat"  >Prev</h2><h2 class="more-tat">More Tat-Vision?</h2><h2 id="nextbutton" class="more-tat">Next</h2></div>
-<br>
-<br>
- <div class="footer">
-      <span>&#169;</span>Copyright Well Douglas 2004
-    </div>
-		 <script src="script.js"></script>
-  </body>
-</html>
+				</div>`
+	
+	},
+	
+				
+				];
+
+
+
+
+const gallery = document.querySelector(".video-container");
+const next = document.getElementById("nextbutton");
+const prev = document.getElementById("prevbutton");
+
+next.addEventListener("click", (event) => {
+	pageIndex += 1;
+	
+	if (pageIndex < videoGallery.length) //videos.length
+	{
+		gallery.innerHTML = '';
+		gallery.innerHTML = videoGallery[pageIndex].videos;
+	}
+	
+	else {
+		pageIndex = 0;
+		gallery.innerHTML = '';
+		gallery.innerHTML = videoGallery[pageIndex].videos;
+	}
+	
+	
+});
+
+prev.addEventListener("click", (event) => {
+	
+	pageIndex -= 1;
+	if (pageIndex > 0) //videos.length
+	{
+		gallery.innerHTML = '';
+		gallery.innerHTML = videoGallery[pageIndex].videos;
+	}
+	
+	else {
+		pageIndex = (videoGallery.length - 1);
+		gallery.innerHTML = '';
+		gallery.innerHTML = videoGallery[pageIndex].videos;
+	}
+	
+	
+	
+});
