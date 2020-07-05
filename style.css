@@ -210,3 +210,6 @@ iframe,
 }
 
 /* need to add cursor property to these buttons*/
+.footer {
+	margin-bottom: 25px;
+}
