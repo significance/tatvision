@@ -161,7 +161,7 @@ const gallery = document.querySelector(".video-container");
 const next = document.getElementById("nextbutton");
 const prev = document.getElementById("prevbutton");
 
-blink(600);
+blink(700);
 
 next.addEventListener("click", (event) => {
 	blink(700);
