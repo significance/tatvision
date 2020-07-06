@@ -18,7 +18,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/jSAyuoAtBcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="span-row-2"><iframe class="gallery-item" src="https://www.youtube.com/embed/b6cejUHWZqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/UstpqZe24Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>}`
+        <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>}`,
+				
+		color: '#51ff0d'
 	},
 				
 	{ videos: `</div>
@@ -38,7 +40,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/QDQTqrC9wBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-				</div>`
+				</div>`,
+		
+		color: '#ffe700'
 	},
 	{videos: `</div>
       <div class="grid">
@@ -57,7 +61,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/f2AkoOzEG6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-				</div>`
+				</div>`,
+				
+		color: '#ff0000'
 	
 	},
 	{videos:`<div class="grid">
@@ -76,7 +82,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/xMlgTjoTuOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>
         
-				</div>`
+				</div>`,
+		
+	 color: '#9D00FF'
 	
 	},
 	{videos:`<div class="grid">
@@ -95,7 +103,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/gVdNHF-1gNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-				</div>`
+				</div>`,
+		
+		color: '#ff6600'
 	
 	},
 	{videos:`<div class="grid">
@@ -114,7 +124,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/jZPMOZH5ibc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0"  allowfullscreen></iframe></div>
         
-				</div>`
+				</div>`,
+		
+		color: '#4deeaa'
 	
 	},
 	{videos:`<div class="grid">
@@ -133,7 +145,9 @@ let videoGallery = [
         <div><iframe class="gallery-item" src="https://www.youtube.com/embed/4dNBsid6MX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div><iframe class="gallery-item" src="https://giphy.com/embed/Yn5kbYq4OHxEHH3uJc" frameborder="0" allowfullscreen></iframe></div>
         
-				</div>`
+				</div>`,
+		
+		color: '#fec763'
 	
 	},
 	
@@ -154,12 +168,17 @@ next.addEventListener("click", (event) => {
 	{
 		gallery.innerHTML = '';
 		gallery.innerHTML = videoGallery[pageIndex].videos;
+		document.body.style.backgroundColor = videoGallery[pageIndex].color;
+		
+	
+
 	}
 	
 	else {
 		pageIndex = 0;
 		gallery.innerHTML = '';
 		gallery.innerHTML = videoGallery[pageIndex].videos;
+		document.body.style.backgroundColor = videoGallery[pageIndex].color;
 	}
 	
 	
