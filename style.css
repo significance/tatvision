@@ -22,7 +22,11 @@ body {
   margin: 15px;
   overflow-x: hidden;
 	border: 0px;
+margin: 0px;
+margin-bottom: -30px;
 
+padding: 5px;
+padding-bottom: -5px;
   height: 100%;
   overflow: hidden;
 }
@@ -213,4 +217,5 @@ iframe,
 /* need to add cursor property to these buttons*/
 .footer {
 	margin-bottom: 25px;
+	padding-bottom:50px;
 }
