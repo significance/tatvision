@@ -162,6 +162,7 @@ const next = document.getElementById("nextbutton");
 const prev = document.getElementById("prevbutton");
 
 next.addEventListener("click", (event) => {
+	blink();
 	pageIndex += 1;
 	
 	if (pageIndex < videoGallery.length) //videos.length
@@ -245,7 +246,9 @@ function invert() {
 
 function blink() {
 	invert();
-  myVar = setTimeout(invert, 200);
+  myVar = setTimeout(invert, 600);
+	
+	
 }
 
 
@@ -261,5 +264,5 @@ function longBlink(invert) {
 	
 }
 
-newTimer(blink);
+//newTimer(blink);
 
