@@ -193,6 +193,7 @@ prev.addEventListener("click", (event) => {
 		gallery.innerHTML = '';
 		gallery.innerHTML = videoGallery[pageIndex].videos;
 		
+		document.body.style.backgroundColor = videoGallery[pageIndex].color;
 		
 	}
 	
@@ -201,6 +202,7 @@ prev.addEventListener("click", (event) => {
 		pageIndex = (videoGallery.length - 1);
 		gallery.innerHTML = '';
 		gallery.innerHTML = videoGallery[pageIndex].videos;
+		document.body.style.backgroundColor = videoGallery[pageIndex].color;
 	}
 	
 	
