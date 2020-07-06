@@ -163,8 +163,11 @@ const prev = document.getElementById("prevbutton");
 
 blink(700);
 
+
 next.addEventListener("click", (event) => {
 	blink(700);
+	document.body.scrollTop =  document.documentElement.scrollTop = 780;
+	
 	pageIndex += 1;
 	
 	if (pageIndex < videoGallery.length) //videos.length
@@ -189,6 +192,9 @@ next.addEventListener("click", (event) => {
 
 prev.addEventListener("click", (event) => {
 	
+	blink(700);
+	document.body.scrollTop =  document.documentElement.scrollTop = 780;
+	
 	pageIndex -= 1;
 	if (pageIndex > 0) //videos.length
 	{
@@ -207,7 +213,6 @@ prev.addEventListener("click", (event) => {
 		gallery.innerHTML = videoGallery[pageIndex].videos;
 		document.body.style.backgroundColor = videoGallery[pageIndex].color;
 	}
-	
 	
 	
 });
