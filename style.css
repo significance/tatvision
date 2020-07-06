@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: default;
 }
 
 html {
@@ -21,12 +22,12 @@ body {
   overflow: hidden;
   margin: 15px;
   overflow-x: hidden;
-	border: 0px;
-margin: 0px;
-margin-bottom: -30px;
+  border: 0px;
+  margin: 0px;
+  margin-bottom: -30px;
 
-padding: 5px;
-padding-bottom: -5px;
+  padding: 5px;
+  padding-bottom: -5px;
   height: 100%;
   overflow: hidden;
 }
@@ -36,7 +37,7 @@ padding-bottom: -5px;
   font-size: 2em;
   width: 350px;
   margin-bottom: 15px;
-
+  cursor: pointer;
   background-color: #ff6ec7;
   color: black;
 }
@@ -72,17 +73,19 @@ padding-bottom: -5px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #154682;
   height: 35px;
+  cursor: pointer;
 }
 .myButton:hover {
   background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
   background-color: #0061a7;
+  cursor: pointer;
 }
 .myButton:active {
   top: 1px;
 }
 
 table {
-  width: 800px;
+  width: 500px;
   margin-top: -20px;
 }
 
@@ -91,15 +94,19 @@ table {
   height: 330px;
   pointer-events: none;
 }
-.header-image img {
-  width: 637px;
+.header-image,
+img {
+  width: 300px;
 }
 
 .title-centre {
-  width: 500px;
-  height: 450px;
-  margin-left: 40px;
-  margin-top: 20px;
+  width: 604px;
+  height: 473px;
+  margin-bottom: -80px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .center,
@@ -111,6 +118,7 @@ table {
   width: 25%;
   float: left;
   text-align: center;
+  cursor: pointer;
 }
 
 #mce-EMAIL {
@@ -122,6 +130,7 @@ table {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 label,
@@ -153,11 +162,27 @@ a {
   padding: 2em;
   margin: -2em;
   font-size: 3rem;
+  cursor: pointer;
 }
 
 iframe,
 .giphy-embed {
   pointer-events: none;
+}
+
+.gifs {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.contact {
+  height: 150px;
+  width: 300px;
+  padding-left: -30px;
+}
+.helicopter {
+  margin-left: -150px;
 }
 
 .main-vid {
@@ -184,6 +209,7 @@ iframe,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
+  cursor: pointer;
 }
 .span-row-2 {
   grid-row: span 2 / auto;
@@ -212,10 +238,14 @@ iframe,
 #prevbutton,
 #nextbutton {
   font-size: 5rem;
+  cursor: pointer;
 }
 
 /* need to add cursor property to these buttons*/
 .footer {
-	margin-bottom: 25px;
-	padding-bottom:50px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+  font-size: 2em;
+  cursor: pointer;
 }
