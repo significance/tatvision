@@ -170,11 +170,15 @@ prev.addEventListener("click", (event) => {
 	pageIndex -= 1;
 	if (pageIndex > 0) //videos.length
 	{
+		
 		gallery.innerHTML = '';
 		gallery.innerHTML = videoGallery[pageIndex].videos;
+		
+		
 	}
 	
 	else {
+		
 		pageIndex = (videoGallery.length - 1);
 		gallery.innerHTML = '';
 		gallery.innerHTML = videoGallery[pageIndex].videos;
@@ -183,3 +187,58 @@ prev.addEventListener("click", (event) => {
 	
 	
 });
+
+
+
+function invert() { 
+    var css = 'html {-webkit-filter: invert(100%);' + '-moz-filter: invert(100%);' + '-o-filter: invert(100%);' + '-ms-filter: invert(100%); }';
+    var head = document.getElementsByTagName('head')[0];
+    var style = document.createElement('style');
+    if (!window.counter) { 
+        window.counter = 1;
+    } else { 
+        window.counter++;
+        if (window.counter % 2 == 0) { 
+            var css = 'html {-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'
+        } 
+    }
+    style.type = 'text/css';
+    if (style.styleSheet) {
+        style.styleSheet.cssText = css;
+    } else {
+        style.appendChild(document.createTextNode(css));
+    }
+    head.appendChild(style);
+	};
+	
+	//set timeout 
+	
+	
+	function newTimer(aFunction) {
+  
+	
+
+	intervId = setInterval(aFunction, 6000);
+}
+
+
+function blink() {
+	invert();
+  myVar = setTimeout(invert, 200);
+}
+
+
+function blinkTimer(invert) {
+  intervId = setInterval(invert, 300);
+	
+}
+
+
+function longBlink(invert) {
+  invert();
+  myVar = setTimeout(invert, 300);
+	
+}
+
+newTimer(blink);
+
