@@ -160,7 +160,7 @@ const prev = document.getElementById("prevbutton");
 
 
 loop();
-static(900);
+static(1500);
 
 next.addEventListener("click", (event) => {
   
@@ -183,7 +183,7 @@ next.addEventListener("click", (event) => {
     gallery.innerHTML = videoGallery[pageIndex].videos;
     // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
-	static(900);
+	static(1500);
 });
 
 prev.addEventListener("click", (event) => {
@@ -204,7 +204,7 @@ prev.addEventListener("click", (event) => {
     gallery.innerHTML = videoGallery[pageIndex].videos;
     // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
-	static(900);
+	static(1500);
 });
 
 function invert() {
