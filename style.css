@@ -17,6 +17,16 @@ html {
   overflow-x: hidden;
 }
 
+#canvas { 
+        z-index: -100; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        opacity: 1.0; 
+        background-color: #51ff0d;
+    } 
+		
+
 body {
   background: #51ff0d;
   overflow: hidden;
