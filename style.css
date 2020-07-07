@@ -18,7 +18,7 @@ html {
 }
 
 #canvas { 
-        z-index: -100; 
+        z-index: -7; 
         position: fixed; 
         top: 0; 
         left: 0; 
@@ -100,13 +100,16 @@ table {
 }
 
 .header-image {
+	
   text-align: center;
   height: 330px;
   pointer-events: none;
+	z-index: 100;
 }
 .header-image,
-img {
+.title {
   width: 300px;
+	z-index:100;
 }
 
 .title-centre {

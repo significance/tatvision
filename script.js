@@ -160,7 +160,9 @@ const prev = document.getElementById("prevbutton");
 
 
 loop();
-canvas.style.display = 'none';
+canvas.style.zIndex = 7;
+staticInitial(2000);
+
 
 
 next.addEventListener("click", (event) => {
@@ -184,7 +186,7 @@ next.addEventListener("click", (event) => {
     gallery.innerHTML = videoGallery[pageIndex].videos;
     // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
-	static(1500);
+	staticInitial(1500);
 });
 
 prev.addEventListener("click", (event) => {
@@ -205,7 +207,7 @@ prev.addEventListener("click", (event) => {
     gallery.innerHTML = videoGallery[pageIndex].videos;
     // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
-	static(1500);
+	staticInitial(1500);
 });
 
 function invert() {
@@ -255,7 +257,19 @@ function longBlink(invert) {
 }
 
 function staticOn () {
+	canvas.style.zIndex = -100;
 	
+	let colorIndex = pageIndex;
+	
+	canvas.style.display = '';
+	
+	
+	canvas.style.backgroundColor = videoGallery[colorIndex].color;
+	
+}
+
+function staticInitialOn () {
+	canvas.style.zIndex = 7;
 	
 	let colorIndex = pageIndex;
 	
@@ -275,7 +289,11 @@ function static(time) {
   myVar = setTimeout(staticOff, time);
 }
 
- 
+
+ function staticInitial(time) {
+  staticInitialOn();
+  myVar = setTimeout(staticOff, time);
+}
 
 //newTimer(blink);
 
