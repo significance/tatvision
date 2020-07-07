@@ -160,7 +160,8 @@ const prev = document.getElementById("prevbutton");
 
 
 loop();
-static(2000);
+canvas.style.display = 'none';
+
 
 next.addEventListener("click", (event) => {
   
