@@ -160,7 +160,7 @@ const prev = document.getElementById("prevbutton");
 
 
 loop();
-static(1500);
+static(2000);
 
 next.addEventListener("click", (event) => {
   
