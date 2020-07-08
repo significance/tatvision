@@ -264,3 +264,13 @@ iframe,
   font-size: 2em;
   cursor: pointer;
 }
+
+.visitor {
+	text-align: center;
+  width: 100%;
+  padding-left: 0px;
+	font-family: "Piedra", cursive;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: block;
+}
