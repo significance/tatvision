@@ -2,6 +2,8 @@ let pageIndex = 0;
 
 var canvas = document.getElementById('canvas');
 
+
+
 let videoGallery = [
   {
     videos: `<div class="grid">
@@ -356,3 +358,5 @@ var canvas = document.getElementById('canvas'),
             generate_noise(ctx); 
             requestAnimationFrame(loop); 
 					}; 
+					
+					

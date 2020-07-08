@@ -120,6 +120,8 @@ table {
   margin-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
+	position: relative;
+	z-index: 9;
 }
 
 .center,
