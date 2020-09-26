@@ -2,8 +2,6 @@ let pageIndex = 0;
 
 var canvas = document.getElementById('canvas');
 
-
-
 let videoGallery = [
   {
     videos: `<div class="grid">
@@ -159,34 +157,21 @@ const gallery = document.querySelector(".video-container");
 const next = document.getElementById("nextbutton");
 const prev = document.getElementById("prevbutton");
 
-
-
 loop();
 canvas.style.zIndex = 7;
 staticInitial(2000);
 
 
-
 next.addEventListener("click", (event) => {
   
-	
   document.body.scrollTop = document.documentElement.scrollTop = 780;
-
   pageIndex += 1;
 	
-	
-
   if (pageIndex < videoGallery.length) {
-    //videos.length
-   // gallery.innerHTML = "";
     gallery.innerHTML = videoGallery[pageIndex].videos;
-    //document.body.style.backgroundColor = videoGallery[pageIndex].color;
   } else {
     pageIndex = 0;
-		
-   // gallery.innerHTML = "";
     gallery.innerHTML = videoGallery[pageIndex].videos;
-    // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
 	staticInitial(1500);
 });
@@ -194,20 +179,15 @@ next.addEventListener("click", (event) => {
 prev.addEventListener("click", (event) => {
   
   document.body.scrollTop = document.documentElement.scrollTop = 780;
-
   pageIndex -= 1;
 	
   if (pageIndex > 0) {
-    //videos.length
     gallery.innerHTML = "";
     gallery.innerHTML = videoGallery[pageIndex].videos;
-
-    //document.body.style.backgroundColor = videoGallery[pageIndex].color;
   } else {
     pageIndex = videoGallery.length - 1;
     gallery.innerHTML = "";
     gallery.innerHTML = videoGallery[pageIndex].videos;
-    // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
 	staticInitial(1500);
 });
@@ -260,45 +240,31 @@ function longBlink(invert) {
 
 function staticOn () {
 	canvas.style.zIndex = -100;
-	
 	let colorIndex = pageIndex;
-	
 	canvas.style.display = '';
-	
-	
 	canvas.style.backgroundColor = videoGallery[colorIndex].color;
-	
 }
 
 function staticInitialOn () {
 	canvas.style.zIndex = 7;
-	
 	let colorIndex = pageIndex;
-	
 	canvas.style.display = '';
-	
-	
 	canvas.style.backgroundColor = videoGallery[colorIndex].color;
-	
 }
 
 function staticOff() {
 	canvas.style.display = 'none';
-	
 }
+
 function static(time) {
   staticOn();
   myVar = setTimeout(staticOff, time);
 }
 
-
  function staticInitial(time) {
   staticInitialOn();
   myVar = setTimeout(staticOff, time);
 }
-
-//newTimer(blink);
-
 
 var canvas = document.getElementById('canvas'), 
               
@@ -343,13 +309,10 @@ var canvas = document.getElementById('canvas'),
         } 
   
         // Creating animation effect 
-   
-
 				var toggle = true; 
         function loop() { 
             toggle = !toggle; 
             if (toggle) { 
-              
                 // Loop function is called each 
                 // time before next repaint 
                 requestAnimationFrame(loop);  
