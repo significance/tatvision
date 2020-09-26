@@ -178,13 +178,13 @@ next.addEventListener("click", (event) => {
 
   if (pageIndex < videoGallery.length) {
     //videos.length
-    gallery.innerHTML = "";
+   // gallery.innerHTML = "";
     gallery.innerHTML = videoGallery[pageIndex].videos;
     //document.body.style.backgroundColor = videoGallery[pageIndex].color;
   } else {
     pageIndex = 0;
 		
-    gallery.innerHTML = "";
+   // gallery.innerHTML = "";
     gallery.innerHTML = videoGallery[pageIndex].videos;
     // document.body.style.backgroundColor = videoGallery[pageIndex].color;
   }
