@@ -4,9 +4,7 @@ permalink: /index.html
 ---
 
 
-<img src='readme-images/logo.png' width='150' height='150' alt=' logo'/>
-
----
+<img src='readme-images/logo.png' width='100' height='100' alt=' logo'/>
 
 ## A static site mocked up for a local artist
 
